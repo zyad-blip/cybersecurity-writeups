@@ -7,7 +7,7 @@ In this room, I learned the basics of Digital Forensics and how to extract usefu
 The scenario was about a kidnapped cat named Gado. The kidnapper sent a ransom letter with an attached image.
 
 My goal was to investigate the files and find useful information from their metadata.
-
+ 
 ## 2. Tools Used
 
 - `pdfinfo`
