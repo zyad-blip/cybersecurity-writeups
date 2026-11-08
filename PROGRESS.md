@@ -13,7 +13,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | First Grep | picoCTF 2019 | Text searching with grep | [Read](picoCTF/General-Skills/First-Grep/README.md) |
 | Bases | picoCTF 2019 | Base64 decoding | [Read](picoCTF/General-Skills/Bases/README.md) |
 | strings it | picoCTF 2019 | Printable strings and grep | [Read](picoCTF/General-Skills/strings-it/README.md) |
-| what's a net cat? | picoCTF 2019 | Netcat and TCP connections | [Read](picoCTF/General-Skills/Whats-a-net-cat/README.md) |
+| what's a net cat? | picoCTF 2019 | Netcat and TCP connections | [Read](picoCTF/General-Skills/Whats-a-net-cat/README.md) |\n| Plumbing | picoCTF 2019 | Pipes, stdin/stdout, Netcat, grep | [Read](picoCTF/General-Skills/Plumbing/README.md) |
 | Intro to Digital Forensics | TryHackMe | PDF and image metadata, ExifTool, GPS evidence | [Read](TryHackMe/Intro-to-Digital-Forensics/README.md) |
 | Passive Reconnaissance | Training room | WHOIS, DNS records, passive information gathering | [Read](TryHackMe/Passive-Reconnaissance/README.md) |
 | Active Reconnaissance | Training room | Browser DevTools, ping, traceroute, Netcat, Telnet | [Read](TryHackMe/Active-Reconnaissance/README.md) |
