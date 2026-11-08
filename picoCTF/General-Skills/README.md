@@ -13,7 +13,7 @@ This section contains solution notes for the picoCTF General Skills challenges c
 | First Grep | 2019 | Searching file contents with grep | [Read](First-Grep/README.md) |
 | Bases | 2019 | Base64 decoding | [Read](Bases/README.md) |
 | strings it | 2019 | Extracting printable strings and filtering output | [Read](strings-it/README.md) |
-| what's a net cat? | 2019 | Connecting to a TCP service with Netcat | [Read](Whats-a-net-cat/README.md) |
+| what's a net cat? | 2019 | Connecting to a TCP service with Netcat | [Read](Whats-a-net-cat/README.md) |\n| Plumbing | 2019 | Pipes, stdin/stdout, Netcat, grep | [Read](Plumbing/README.md) |
 
 ## Documentation note
 
