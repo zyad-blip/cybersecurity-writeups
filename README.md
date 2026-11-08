@@ -22,7 +22,7 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 
 | Topic | Challenge / Lab | Type | Status |
 |---|---|---|---|
-| picoCTF General Skills | [8 completed challenges](picoCTF/General-Skills/README.md) | CTF challenges | Completed; write-ups documented |
+| picoCTF General Skills | [9 completed challenges](picoCTF/General-Skills/README.md) | CTF challenges | Completed; write-ups documented |
 | Digital Forensics | [Intro to Digital Forensics](TryHackMe/Intro-to-Digital-Forensics/README.md) | TryHackMe room | Completed |
 | Reconnaissance | [Passive Reconnaissance](TryHackMe/Passive-Reconnaissance/README.md) | Training room | Completed |
 | Reconnaissance | [Active Reconnaissance](TryHackMe/Active-Reconnaissance/README.md) | Training room | Completed |
