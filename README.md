@@ -22,7 +22,7 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 
 | Topic | Challenge / Lab | Type | Status |
 |---|---|---|---|
-| picoCTF General Skills | [8 completed challenges](picoCTF/General-Skills/README.md) | CTF challenge tracker | Completed; write-ups pending |
+| picoCTF General Skills | [8 completed challenges](picoCTF/General-Skills/README.md) | CTF challenges | Completed; write-ups documented |
 | Digital Forensics | [Intro to Digital Forensics](TryHackMe/Intro-to-Digital-Forensics/README.md) | TryHackMe room | Completed |
 | Reconnaissance | [Passive Reconnaissance](TryHackMe/Passive-Reconnaissance/README.md) | Training room | Completed |
 | Reconnaissance | [Active Reconnaissance](TryHackMe/Active-Reconnaissance/README.md) | Training room | Completed |
@@ -47,6 +47,14 @@ For a more detailed view of what is complete and what is still in progress, see 
 │   └── CLI-Fundamentals/
 ├── picoCTF/
 │   └── General-Skills/
+│       ├── Bases/
+│       ├── First-Grep/
+│       ├── Nice-netcat/
+│       ├── Obedient-Cat/
+│       ├── Tab-Tab-Attack/
+│       ├── Wave-a-flag/
+│       ├── Whats-a-net-cat/
+│       └── strings-it/
 ├── Templates/
 │   └── WRITEUP-TEMPLATE.md
 ├── TryHackMe/
@@ -67,7 +75,7 @@ Each write-up aims to include:
 4. **Result** — the confirmed finding or flag, when appropriate.
 5. **Lessons learned** — what I understood and what I would improve next time.
 
-I distinguish between completed rooms, practical exercises, and work that is still in progress. I do not mark a room as solved just because I started it.
+Some earlier challenge notes are reconstructed from public solution references after completion. They are labelled as such rather than presented as original terminal transcripts.
 
 ## Responsible practice
 

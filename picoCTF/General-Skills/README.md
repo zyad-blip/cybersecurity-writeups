@@ -1,39 +1,37 @@
-# picoCTF — General Skills Progress
+# picoCTF — General Skills
 
-This page tracks the picoCTF General Skills challenges I have completed.
+This section contains solution notes for the picoCTF General Skills challenges completed during my learning.
 
-> **Documentation note:** Completion is recorded from my learning progress. Individual solution write-ups are intentionally pending until I document the commands, observations, and reasoning I personally used. No solutions or flags are copied from other write-ups.
+## Completed challenges
 
-## Completed
-
-| Challenge | Competition / Year | Status | Detailed write-up |
+| Challenge | Edition | Main concept | Write-up |
 |---|---|---|---|
-| [Obedient Cat](https://play.picoctf.org/practice/challenge/obedient-cat) | picoCTF 2021 | Completed | Pending |
-| [Wave a flag](https://play.picoctf.org/practice/challenge/wave-a-flag) | picoCTF 2021 | Completed | Pending |
-| [Nice netcat...](https://play.picoctf.org/practice/challenge/nice-netcat) | picoCTF 2021 | Completed | Pending |
-| [Tab, Tab, Attack](https://play.picoctf.org/practice/challenge/tab-tab-attack) | picoCTF 2021 | Completed | Pending |
-| [First Grep](https://play.picoctf.org/practice/challenge/first-grep) | picoCTF 2019 | Completed | Pending |
-| [Bases](https://play.picoctf.org/practice/challenge/bases) | picoCTF 2019 | Completed | Pending |
-| [strings it](https://play.picoctf.org/practice/challenge/strings-it) | picoCTF 2019 | Completed | Pending |
-| [what's a net cat?](https://play.picoctf.org/practice/challenge/whats-a-net-cat) | picoCTF 2019 | Completed | Pending |
+| Wave a flag | 2021 | Linux permissions and command-line arguments | [Read](Wave-a-flag/README.md) |
+| Tab, Tab, Attack | 2021 | ZIP extraction, tab completion, strings, grep | [Read](Tab-Tab-Attack/README.md) |
+| Nice netcat... | 2021 | Netcat and decimal ASCII conversion | [Read](Nice-netcat/README.md) |
+| Obedient Cat | 2021 | Downloading and reading a plain-text file | [Read](Obedient-Cat/README.md) |
+| First Grep | 2019 | Searching file contents with grep | [Read](First-Grep/README.md) |
+| Bases | 2019 | Base64 decoding | [Read](Bases/README.md) |
+| strings it | 2019 | Extracting printable strings and filtering output | [Read](strings-it/README.md) |
+| what's a net cat? | 2019 | Connecting to a TCP service with Netcat | [Read](Whats-a-net-cat/README.md) |
 
-## Skills practiced across these challenges
+## Documentation note
 
-- Basic Linux command-line navigation and file handling.
-- Identifying and extracting readable information from files.
-- Searching text with `grep`.
-- Converting encoded text and understanding common representations.
-- Connecting to a training service with Netcat.
-- Using terminal tab completion to navigate long paths.
+These notes were reconstructed after completion by reviewing publicly available walkthroughs. The commands describe valid solution paths, but they are not presented as a verbatim record of the original terminal sessions.
 
-## Next step
+The exact flags were not copied from public examples because the accepted flag values from the completed account were not preserved here, and older public write-ups may refer to different challenge instances.
 
-For each challenge, add a separate write-up after recording the actual investigation process:
+## Skills covered
 
-1. Challenge objective and provided files / connection details.
-2. Commands used and why they were chosen.
-3. Useful observations and output.
-4. Confirmed result.
-5. What I learned and what I would improve.
+- Linux file handling and executable permissions.
+- Shell navigation and tab completion.
+- Text searching with `grep`.
+- Printable string extraction with `strings`.
+- Base64 decoding.
+- Netcat and TCP connections.
+- Decimal ASCII conversion.
+- Command pipelines and standard input/output.
 
-The challenge **Wave a flag** was mentioned more than once in my progress notes, but it is listed only once here.
+## Sources and further reading
+
+Each individual write-up links to the public references used to cross-check the solution approach.
