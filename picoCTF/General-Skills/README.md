@@ -4,22 +4,22 @@ This section contains solution notes for the picoCTF General Skills challenges c
 
 ## Completed challenges
 
-| Challenge | Edition | Main concept | Write-up |
-|---|---|---|---|
-| Wave a flag | 2021 | Linux permissions and command-line arguments | [Read](Wave-a-flag/README.md) |
-| Tab, Tab, Attack | 2021 | ZIP extraction, tab completion, strings, grep | [Read](Tab-Tab-Attack/README.md) |
-| Nice netcat... | 2021 | Netcat and decimal ASCII conversion | [Read](Nice-netcat/README.md) |
-| Obedient Cat | 2021 | Downloading and reading a plain-text file | [Read](Obedient-Cat/README.md) |
-| First Grep | 2019 | Searching file contents with grep | [Read](First-Grep/README.md) |
-| Bases | 2019 | Base64 decoding | [Read](Bases/README.md) |
-| strings it | 2019 | Extracting printable strings and filtering output | [Read](strings-it/README.md) |
-| what's a net cat? | 2019 | Connecting to a TCP service with Netcat | [Read](Whats-a-net-cat/README.md) |\n| Plumbing | 2019 | Pipes, stdin/stdout, Netcat, grep | [Read](Plumbing/README.md) |
+| Challenge | Edition | Difficulty | Main concept | Write-up |
+|---|---|---|---|---|
+| Wave a flag | 2021 | Easy | Linux permissions and command-line arguments | [Read](Wave-a-flag/README.md) |
+| Tab, Tab, Attack | 2021 | Easy | ZIP extraction, tab completion, strings, grep | [Read](Tab-Tab-Attack/README.md) |
+| Nice netcat... | 2021 | Easy | Netcat and decimal ASCII conversion | [Read](Nice-netcat/README.md) |
+| Obedient Cat | 2021 | Easy | Downloading and reading a plain-text file | [Read](Obedient-Cat/README.md) |
+| First Grep | 2019 | Easy | Searching file contents with grep | [Read](First-Grep/README.md) |
+| Bases | 2019 | Easy | Base64 decoding | [Read](Bases/README.md) |
+| strings it | 2019 | Easy | Extracting printable strings and filtering output | [Read](strings-it/README.md) |
+| what's a net cat? | 2019 | Easy | Connecting to a TCP service with Netcat | [Read](Whats-a-net-cat/README.md) |
+| Plumbing | 2019 | Medium | Pipes, stdin/stdout, Netcat, grep | [Read](Plumbing/README.md) |
+| Printer Shares | 2026 | Easy | SMB share discovery and file retrieval | [Read](Printer-Shares/README.md) |
 
 ## Documentation note
 
-These notes were reconstructed after completion by reviewing publicly available walkthroughs. The commands describe valid solution paths, but they are not presented as a verbatim record of the original terminal sessions.
-
-The exact flags were not copied from public examples because the accepted flag values from the completed account were not preserved here, and older public write-ups may refer to different challenge instances.
+Some earlier challenge notes were reconstructed after completion by reviewing publicly available walkthroughs. The Plumbing and Printer Shares write-ups are based on the commands and output recorded during my own solves.
 
 ## Skills covered
 
@@ -31,7 +31,8 @@ The exact flags were not copied from public examples because the accepted flag v
 - Netcat and TCP connections.
 - Decimal ASCII conversion.
 - Command pipelines and standard input/output.
+- SMB share enumeration and remote file retrieval.
 
-## Sources and further reading
+## Responsible practice
 
-Each individual write-up links to the public references used to cross-check the solution approach.
+All network connections described here were made only to the authorized picoCTF / CyLab challenge services.

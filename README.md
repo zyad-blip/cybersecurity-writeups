@@ -13,7 +13,7 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 ## Learning focus
 
 - **Linux & Command Line:** file inspection, text searching, shell basics, and system fundamentals.
-- **Networking:** client/server communication, common services, and reconnaissance.
+- **Networking:** client/server communication, common services, SMB, and reconnaissance.
 - **Web & Infrastructure:** Apache, HTTP requests, virtual hosts, and access logs.
 - **Digital Forensics:** metadata analysis and extracting useful evidence.
 - **CTFs & General Skills:** practical problem-solving in authorized training environments.
@@ -22,7 +22,7 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 
 | Topic | Challenge / Lab | Type | Status |
 |---|---|---|---|
-| picoCTF General Skills | [9 completed challenges](picoCTF/General-Skills/README.md) | CTF challenges | Completed; write-ups documented |
+| picoCTF General Skills | [10 completed challenges](picoCTF/General-Skills/README.md) | CTF challenges | Completed |
 | Digital Forensics | [Intro to Digital Forensics](TryHackMe/Intro-to-Digital-Forensics/README.md) | TryHackMe room | Completed |
 | Reconnaissance | [Passive Reconnaissance](TryHackMe/Passive-Reconnaissance/README.md) | Training room | Completed |
 | Reconnaissance | [Active Reconnaissance](TryHackMe/Active-Reconnaissance/README.md) | Training room | Completed |
@@ -50,7 +50,9 @@ For a more detailed view of what is complete and what is still in progress, see 
 │       ├── Bases/
 │       ├── First-Grep/
 │       ├── Nice-netcat/
-│       ├── Obedient-Cat/\n│       ├── Plumbing/
+│       ├── Obedient-Cat/
+│       ├── Plumbing/
+│       ├── Printer-Shares/
 │       ├── Tab-Tab-Attack/
 │       ├── Wave-a-flag/
 │       ├── Whats-a-net-cat/
@@ -75,7 +77,7 @@ Each write-up aims to include:
 4. **Result** — the confirmed finding or flag, when appropriate.
 5. **Lessons learned** — what I understood and what I would improve next time.
 
-Some earlier challenge notes are reconstructed from public solution references after completion. They are labelled as such rather than presented as original terminal transcripts.
+Some earlier challenge notes are reconstructed from public solution references after completion. Notes based on my recorded solve commands are labelled accordingly.
 
 ## Responsible practice
 

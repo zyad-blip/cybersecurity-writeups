@@ -13,7 +13,9 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | First Grep | picoCTF 2019 | Text searching with grep | [Read](picoCTF/General-Skills/First-Grep/README.md) |
 | Bases | picoCTF 2019 | Base64 decoding | [Read](picoCTF/General-Skills/Bases/README.md) |
 | strings it | picoCTF 2019 | Printable strings and grep | [Read](picoCTF/General-Skills/strings-it/README.md) |
-| what's a net cat? | picoCTF 2019 | Netcat and TCP connections | [Read](picoCTF/General-Skills/Whats-a-net-cat/README.md) |\n| Plumbing | picoCTF 2019 | Pipes, stdin/stdout, Netcat, grep | [Read](picoCTF/General-Skills/Plumbing/README.md) |
+| what's a net cat? | picoCTF 2019 | Netcat and TCP connections | [Read](picoCTF/General-Skills/Whats-a-net-cat/README.md) |
+| Plumbing | picoCTF 2019 | Pipes, stdin/stdout, Netcat, grep | [Read](picoCTF/General-Skills/Plumbing/README.md) |
+| Printer Shares | picoCTF 2026 | SMB share enumeration and file retrieval | [Read](picoCTF/General-Skills/Printer-Shares/README.md) |
 | Intro to Digital Forensics | TryHackMe | PDF and image metadata, ExifTool, GPS evidence | [Read](TryHackMe/Intro-to-Digital-Forensics/README.md) |
 | Passive Reconnaissance | Training room | WHOIS, DNS records, passive information gathering | [Read](TryHackMe/Passive-Reconnaissance/README.md) |
 | Active Reconnaissance | Training room | Browser DevTools, ping, traceroute, Netcat, Telnet | [Read](TryHackMe/Active-Reconnaissance/README.md) |
@@ -22,9 +24,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 
 ## Documentation accuracy
 
-The eight picoCTF challenge notes were reconstructed after completion by reviewing public walkthroughs. Their commands describe valid solution approaches and are not claimed to be exact transcripts of the original sessions.
-
-Flags were not copied from public examples because the exact values accepted in the completed account were not preserved here.
+The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing and Printer Shares write-ups are based on the commands and outputs recorded during my own solves.
 
 ## Practiced labs and skills
 
@@ -46,10 +46,3 @@ Flags were not copied from public examples because the exact values accepted in 
 - Further Linux and web security challenges.
 
 These topics will move to the completed section only after the practical work is finished and verified.
-
-## Progress rules
-
-- **Completed** means the room or challenge was finished.
-- **Built and tested** means a personal lab was configured and successfully exercised; it is not presented as a platform room.
-- **Practiced** means the tools or concepts were used, but there is no separate named room being claimed.
-- **In progress** means the work is unfinished.
