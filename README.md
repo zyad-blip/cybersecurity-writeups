@@ -22,6 +22,7 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 
 | Topic | Challenge / Lab | Type | Status |
 |---|---|---|---|
+| picoCTF General Skills | [8 completed challenges](picoCTF/General-Skills/README.md) | CTF challenge tracker | Completed; write-ups pending |
 | Digital Forensics | [Intro to Digital Forensics](TryHackMe/Intro-to-Digital-Forensics/README.md) | TryHackMe room | Completed |
 | Reconnaissance | [Passive Reconnaissance](TryHackMe/Passive-Reconnaissance/README.md) | Training room | Completed |
 | Reconnaissance | [Active Reconnaissance](TryHackMe/Active-Reconnaissance/README.md) | Training room | Completed |
@@ -41,8 +42,11 @@ For a more detailed view of what is complete and what is still in progress, see 
 ├── Hands-on-Labs/
 │   ├── Apache-Local-Web-Server/
 │   └── FTP/
+├── In-Progress/
 ├── Linux/
 │   └── CLI-Fundamentals/
+├── picoCTF/
+│   └── General-Skills/
 ├── Templates/
 │   └── WRITEUP-TEMPLATE.md
 ├── TryHackMe/
