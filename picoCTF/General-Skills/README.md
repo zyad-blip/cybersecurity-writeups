@@ -15,12 +15,14 @@ This section contains solution notes for the picoCTF General Skills challenges c
 | strings it | 2019 | Easy | Extracting printable strings and filtering output | [Read](strings-it/README.md) |
 | what's a net cat? | 2019 | Easy | Connecting to a TCP service with Netcat | [Read](Whats-a-net-cat/README.md) |
 | Plumbing | 2019 | Medium | Pipes, stdin/stdout, Netcat, grep | [Read](Plumbing/README.md) |
-| Warmed Up | 2019 | Easy | Hexadecimal to decimal conversion | [Read](Warmed-Up/README.md) |\n| 2warm | 2019 | Easy | Decimal to binary conversion with bc | [Read](2warm/README.md) |
+| Warmed Up | 2019 | Easy | Hexadecimal to decimal conversion | [Read](Warmed-Up/README.md) |
+| 2warm | 2019 | Easy | Decimal to binary conversion with bc | [Read](2warm/README.md) |
 | Printer Shares | 2026 | Easy | SMB share discovery and file retrieval | [Read](Printer-Shares/README.md) |
+| Static ain't always noise | 2021 | Easy | Binary identification, printable strings, file offsets, and disassembly | [Read](Static-Aint-Always-Noise/README.md) |
 
 ## Documentation note
 
-Some earlier challenge notes were reconstructed after completion by reviewing publicly available walkthroughs. The Plumbing, Printer Shares, Warmed Up, and 2warm write-ups are based on the commands and output recorded during my own solves.
+Some earlier challenge notes were reconstructed after completion by reviewing publicly available walkthroughs. The Plumbing, Printer Shares, Warmed Up, 2warm, and Static ain't always noise write-ups are based on the commands and output recorded during my own solves.
 
 ## Skills covered
 
@@ -33,7 +35,11 @@ Some earlier challenge notes were reconstructed after completion by reviewing pu
 - Decimal ASCII conversion.
 - Command pipelines and standard input/output.
 - SMB share enumeration and remote file retrieval.
-- Conversion between hexadecimal and decimal number bases.\n- Conversion between decimal and binary number bases using `bc`.
+- Conversion between hexadecimal and decimal number bases.
+- Conversion between decimal and binary number bases using `bc`.
+- Identifying Linux ELF executables with `file`.
+- Extracting strings and hexadecimal file offsets from binaries.
+- Basic disassembly with `objdump`.
 
 ## Responsible practice
 
