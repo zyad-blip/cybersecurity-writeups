@@ -22,7 +22,7 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 
 | Topic | Challenge / Lab | Type | Status |
 |---|---|---|---|
-| picoCTF General Skills | [10 completed challenges](picoCTF/General-Skills/README.md) | CTF challenges | Completed |
+| picoCTF General Skills | [11 completed challenges](picoCTF/General-Skills/README.md) | CTF challenges | Completed |
 | Digital Forensics | [Intro to Digital Forensics](TryHackMe/Intro-to-Digital-Forensics/README.md) | TryHackMe room | Completed |
 | Reconnaissance | [Passive Reconnaissance](TryHackMe/Passive-Reconnaissance/README.md) | Training room | Completed |
 | Reconnaissance | [Active Reconnaissance](TryHackMe/Active-Reconnaissance/README.md) | Training room | Completed |
@@ -54,6 +54,7 @@ For a more detailed view of what is complete and what is still in progress, see 
 │       ├── Plumbing/
 │       ├── Printer-Shares/
 │       ├── Tab-Tab-Attack/
+│       ├── Warmed-Up/
 │       ├── Wave-a-flag/
 │       ├── Whats-a-net-cat/
 │       └── strings-it/
