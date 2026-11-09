@@ -11,6 +11,7 @@ This section contains solution notes for the picoCTF General Skills challenges c
 | Nice netcat... | 2021 | Easy | Netcat and decimal ASCII conversion | [Read](Nice-netcat/README.md) |
 | Obedient Cat | 2021 | Easy | Downloading and reading a plain-text file | [Read](Obedient-Cat/README.md) |
 | First Grep | 2019 | Easy | Searching file contents with grep | [Read](First-Grep/README.md) |
+| First Find | picoCTF | Easy | Recursive file search and reading files by full path | [Read](First-Find/README.md) |
 | Bases | 2019 | Easy | Base64 decoding | [Read](Bases/README.md) |
 | strings it | 2019 | Easy | Extracting printable strings and filtering output | [Read](strings-it/README.md) |
 | what's a net cat? | 2019 | Easy | Connecting to a TCP service with Netcat | [Read](Whats-a-net-cat/README.md) |
@@ -23,12 +24,13 @@ This section contains solution notes for the picoCTF General Skills challenges c
 
 ## Documentation note
 
-Some earlier challenge notes were reconstructed after completion by reviewing publicly available walkthroughs. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, and Magikarp Ground Mission write-ups are based on the commands and output recorded during my own solves.
+Some earlier challenge notes were reconstructed after completion by reviewing publicly available walkthroughs. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, Magikarp Ground Mission, and First Find write-ups are based on the commands and output recorded during my own solves.
 
 ## Skills covered
 
 - Linux file handling and executable permissions.
 - Shell navigation and tab completion.
+- Recursive file searching with `find`.
 - Text searching with `grep`.
 - Printable string extraction with `strings`.
 - Base64 decoding.
