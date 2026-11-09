@@ -15,7 +15,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | strings it | picoCTF 2019 | Printable strings and grep | [Read](picoCTF/General-Skills/strings-it/README.md) |
 | what's a net cat? | picoCTF 2019 | Netcat and TCP connections | [Read](picoCTF/General-Skills/Whats-a-net-cat/README.md) |
 | Plumbing | picoCTF 2019 | Pipes, stdin/stdout, Netcat, grep | [Read](picoCTF/General-Skills/Plumbing/README.md) |
-| Warmed Up | picoCTF 2019 | Hexadecimal to decimal conversion | [Read](picoCTF/General-Skills/Warmed-Up/README.md) |
+| Warmed Up | picoCTF 2019 | Hexadecimal to decimal conversion | [Read](picoCTF/General-Skills/Warmed-Up/README.md) |\n| 2warm | picoCTF 2019 | Decimal to binary conversion with bc | [Read](picoCTF/General-Skills/2warm/README.md) |
 | Printer Shares | picoCTF 2026 | SMB share enumeration and file retrieval | [Read](picoCTF/General-Skills/Printer-Shares/README.md) |
 | Intro to Digital Forensics | TryHackMe | PDF and image metadata, ExifTool, GPS evidence | [Read](TryHackMe/Intro-to-Digital-Forensics/README.md) |
 | Passive Reconnaissance | Training room | WHOIS, DNS records, passive information gathering | [Read](TryHackMe/Passive-Reconnaissance/README.md) |
@@ -25,7 +25,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 
 ## Documentation accuracy
 
-The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, and Warmed Up write-ups are based on the commands and output recorded during my own solves.
+The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, and 2warm write-ups are based on the commands and output recorded during my own solves.
 
 ## Practiced labs and skills
 
