@@ -11,6 +11,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | Nice netcat... | picoCTF 2021 | Netcat and decimal ASCII conversion | [Read](picoCTF/General-Skills/Nice-netcat/README.md) |
 | Obedient Cat | picoCTF 2021 | Downloading and reading plain text | [Read](picoCTF/General-Skills/Obedient-Cat/README.md) |
 | First Grep | picoCTF 2019 | Text searching with grep | [Read](picoCTF/General-Skills/First-Grep/README.md) |
+| First Find | picoCTF | Recursive file search, paths, and standard input/output | [Read](picoCTF/General-Skills/First-Find/README.md) |
 | Bases | picoCTF 2019 | Base64 decoding | [Read](picoCTF/General-Skills/Bases/README.md) |
 | strings it | picoCTF 2019 | Printable strings and grep | [Read](picoCTF/General-Skills/strings-it/README.md) |
 | what's a net cat? | picoCTF 2019 | Netcat and TCP connections | [Read](picoCTF/General-Skills/Whats-a-net-cat/README.md) |
@@ -28,7 +29,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 
 ## Documentation accuracy
 
-The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, and Magikarp Ground Mission write-ups are based on the commands and output recorded during my own solves.
+The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, Magikarp Ground Mission, and First Find write-ups are based on the commands and output recorded during my own solves.
 
 ## Practiced labs and skills
 
