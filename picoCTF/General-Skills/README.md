@@ -19,10 +19,11 @@ This section contains solution notes for the picoCTF General Skills challenges c
 | 2warm | 2019 | Easy | Decimal to binary conversion with bc | [Read](2warm/README.md) |
 | Printer Shares | 2026 | Easy | SMB share discovery and file retrieval | [Read](Printer-Shares/README.md) |
 | Static ain't always noise | 2021 | Easy | Binary identification, printable strings, file offsets, and disassembly | [Read](Static-Aint-Always-Noise/README.md) |
+| Magikarp Ground Mission | 2021 | Easy | SSH, shell navigation, and reading files across directories | [Read](Magikarp-Ground-Mission/README.md) |
 
 ## Documentation note
 
-Some earlier challenge notes were reconstructed after completion by reviewing publicly available walkthroughs. The Plumbing, Printer Shares, Warmed Up, 2warm, and Static ain't always noise write-ups are based on the commands and output recorded during my own solves.
+Some earlier challenge notes were reconstructed after completion by reviewing publicly available walkthroughs. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, and Magikarp Ground Mission write-ups are based on the commands and output recorded during my own solves.
 
 ## Skills covered
 
@@ -40,6 +41,9 @@ Some earlier challenge notes were reconstructed after completion by reviewing pu
 - Identifying Linux ELF executables with `file`.
 - Extracting strings and hexadecimal file offsets from binaries.
 - Basic disassembly with `objdump`.
+- Connecting to remote Linux challenge environments using SSH.
+- Navigating between the filesystem root (`/`) and a user's home directory (`~`).
+- Reading files and combining information from multiple locations.
 
 ## Responsible practice
 
