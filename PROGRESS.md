@@ -21,6 +21,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | Printer Shares | picoCTF 2026 | SMB share enumeration and file retrieval | [Read](picoCTF/General-Skills/Printer-Shares/README.md) |
 | Static ain't always noise | picoCTF 2021 | Binary identification, strings, file offsets, and basic disassembly | [Read](picoCTF/General-Skills/Static-Aint-Always-Noise/README.md) |
 | Magikarp Ground Mission | picoCTF 2021 | SSH, Linux directory navigation, reading files, and combining flag fragments | [Read](picoCTF/General-Skills/Magikarp-Ground-Mission/README.md) |
+| CyberHeroes | TryHackMe | JavaScript source inspection, client-side authentication, string reversal, and authentication weaknesses | [Read](TryHackMe/CyberHeroes/README.md) |
 | Intro to Digital Forensics | TryHackMe | PDF and image metadata, ExifTool, GPS evidence | [Read](TryHackMe/Intro-to-Digital-Forensics/README.md) |
 | Passive Reconnaissance | Training room | WHOIS, DNS records, passive information gathering | [Read](TryHackMe/Passive-Reconnaissance/README.md) |
 | Active Reconnaissance | Training room | Browser DevTools, ping, traceroute, Netcat, Telnet | [Read](TryHackMe/Active-Reconnaissance/README.md) |
@@ -29,7 +30,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 
 ## Documentation accuracy
 
-The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, Magikarp Ground Mission, and First Find write-ups are based on the commands and output recorded during my own solves.
+The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, Magikarp Ground Mission, and First Find write-ups are based on the commands and output recorded during my own solves. The CyberHeroes write-up is based on the JavaScript function and completion result recorded during the room.
 
 ## Practiced labs and skills
 
