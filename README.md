@@ -16,13 +16,14 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 - **Networking:** client/server communication, common services, SMB, and reconnaissance.
 - **Web & Infrastructure:** Apache, HTTP requests, virtual hosts, and access logs.
 - **Digital Forensics:** metadata analysis and extracting useful evidence.
+- **Binary Analysis:** identifying executables, extracting strings, and basic disassembly.
 - **CTFs & General Skills:** practical problem-solving in authorized training environments.
 
 ## Write-ups and labs
 
 | Topic | Challenge / Lab | Type | Status |
 |---|---|---|---|
-| picoCTF General Skills | [12 completed challenges](picoCTF/General-Skills/README.md) | CTF challenges | Completed |
+| picoCTF General Skills | [13 completed challenges](picoCTF/General-Skills/README.md) | CTF challenges | Completed |
 | Digital Forensics | [Intro to Digital Forensics](TryHackMe/Intro-to-Digital-Forensics/README.md) | TryHackMe room | Completed |
 | Reconnaissance | [Passive Reconnaissance](TryHackMe/Passive-Reconnaissance/README.md) | Training room | Completed |
 | Reconnaissance | [Active Reconnaissance](TryHackMe/Active-Reconnaissance/README.md) | Training room | Completed |
@@ -47,12 +48,14 @@ For a more detailed view of what is complete and what is still in progress, see 
 │   └── CLI-Fundamentals/
 ├── picoCTF/
 │   └── General-Skills/
-│       ├── 2warm/\n│       ├── Bases/
+│       ├── 2warm/
+│       ├── Bases/
 │       ├── First-Grep/
 │       ├── Nice-netcat/
 │       ├── Obedient-Cat/
 │       ├── Plumbing/
 │       ├── Printer-Shares/
+│       ├── Static-Aint-Always-Noise/
 │       ├── Tab-Tab-Attack/
 │       ├── Warmed-Up/
 │       ├── Wave-a-flag/
