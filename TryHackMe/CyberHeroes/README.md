@@ -44,6 +44,29 @@ This works in three steps:
 
 Reversing the hard-coded value reveals the password used by the condition.
 
+You can reproduce the reversal in either JavaScript or the Linux terminal.
+
+**JavaScript (same operation used by the page):**
+
+```javascript
+const reversed = [..."54321@terceSrepuS"].reverse().join('');
+console.log(reversed);
+```
+
+**Linux terminal:**
+
+```bash
+echo "54321@terceSrepuS" | rev
+```
+
+Both produce:
+
+```text
+SuperSecret@12345
+```
+
+Here, `rev` is a Linux utility that reverses the characters in each input line. It is not the same command as Base64 decoding (`base64 -d`).
+
 The credentials identified from the JavaScript were:
 
 - **Username:** `h3ck3rBoi`
