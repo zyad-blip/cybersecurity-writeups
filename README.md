@@ -24,6 +24,7 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 | Topic | Challenge / Lab | Type | Status |
 |---|---|---|---|
 | picoCTF General Skills | [15 completed challenges](picoCTF/General-Skills/README.md) | CTF challenges | Completed |
+| picoCTF General Skills | [PW Crack 1](picoCTF/General-Skills/PW-Crack-1/README.md) | CTF challenge | In progress — password identified |
 | Web / Authentication | [CyberHeroes](TryHackMe/CyberHeroes/README.md) | TryHackMe room | Completed |
 | Digital Forensics | [Intro to Digital Forensics](TryHackMe/Intro-to-Digital-Forensics/README.md) | TryHackMe room | Completed |
 | Reconnaissance | [Passive Reconnaissance](TryHackMe/Passive-Reconnaissance/README.md) | Training room | Completed |
@@ -58,6 +59,7 @@ For a more detailed view of what is complete and what is still in progress, see 
 │       ├── Obedient-Cat/
 │       ├── Plumbing/
 │       ├── Printer-Shares/
+│       ├── PW-Crack-1/
 │       ├── Static-Aint-Always-Noise/
 │       ├── Tab-Tab-Attack/
 │       ├── Warmed-Up/
