@@ -22,6 +22,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | Static ain't always noise | picoCTF 2021 | Binary identification, strings, file offsets, and basic disassembly | [Read](picoCTF/General-Skills/Static-Aint-Always-Noise/README.md) |
 | Magikarp Ground Mission | picoCTF 2021 | SSH, Linux directory navigation, reading files, and combining flag fragments | [Read](picoCTF/General-Skills/Magikarp-Ground-Mission/README.md) |
 | PW Crack 1 | picoMini 2022 | Python source inspection, hard-coded password checks, and XOR decryption | [Read](picoCTF/General-Skills/PW-Crack-1/README.md) |
+| fixme2.py | picoMini 2022 | Python syntax errors, assignment vs. equality comparison | [Read](picoCTF/General-Skills/fixme2/README.md) |
 | CyberHeroes | TryHackMe | JavaScript source inspection, client-side authentication, string reversal, and authentication weaknesses | [Read](TryHackMe/CyberHeroes/README.md) |
 | Intro to Digital Forensics | TryHackMe | PDF and image metadata, ExifTool, GPS evidence | [Read](TryHackMe/Intro-to-Digital-Forensics/README.md) |
 | Passive Reconnaissance | Training room | WHOIS, DNS records, passive information gathering | [Read](TryHackMe/Passive-Reconnaissance/README.md) |
