@@ -3,7 +3,7 @@
 **Platform:** picoCTF picoMini 2022  
 **Category:** General Skills  
 **Difficulty:** Easy  
-**Status:** In Progress — password identified; flag not yet verified
+**Status:** Completed
 
 ## Objective
 
@@ -52,6 +52,14 @@ When prompted, enter:
 8713
 ```
 
+Confirmed output:
+
+```text
+Please enter correct password for flag: 8713
+Welcome back... your flag, user:
+academy{545h_r1ng1ng_d218163c}
+```
+
 Do not run `str_xor` as a standalone terminal command. It is a Python function defined inside `level1.py`.
 
 Also, running `./level1.py` made the shell try to interpret Python syntax as shell commands. Calling `python3 level1.py` explicitly uses the Python interpreter and avoids that problem.
@@ -73,12 +81,13 @@ This is why the same function can decrypt the flag.
 
 - The password is visible in the source code: `8713`.
 - The encrypted flag is read from `level1.flag.txt.enc`.
-- The flag has not yet been recorded here because the decrypted output has not been verified.
+- The checker successfully decrypted and printed the flag.
 
 ## Result
 
-**Password:** `8713`  
-**Flag:** Pending verification — run the script and record the exact output.
+**Password:** `8713`
+
+**Flag:** `academy{545h_r1ng1ng_d218163c}`
 
 ## What I Learned
 
