@@ -33,7 +33,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | Venus — Mission 0x02 | HackMyVM | Linux file enumeration, `find`, stderr redirection, file inspection | [Read](HackMyVM/Venus/Mission-0x02/README.md) |
 | Venus — Mission 0x06 | HackMyVM | Recursive `grep`, directory enumeration with `find`, file inspection | [Read](HackMyVM/Venus/Mission-0x06/README.md) |\n\n## Documentation accuracy
 
-The Venus Mission 0x02 and Mission 0x06 write-ups record confirmed file discovery and reading; recovered passwords are redacted, and subsequent account logins are not claimed. The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, Magikarp Ground Mission, and First Find write-ups are based on the commands and output recorded during my own solves. The CyberHeroes write-up is based on the JavaScript function and completion result recorded during the room.
+The Venus Mission 0x02, Mission 0x06, and Mission 0x07 write-ups record confirmed file discovery and reading; recovered passwords are redacted, and subsequent account logins are not claimed. The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, Magikarp Ground Mission, and First Find write-ups are based on the commands and output recorded during my own solves. The CyberHeroes write-up is based on the JavaScript function and completion result recorded during the room.
 
 ## Practiced labs and skills
 
