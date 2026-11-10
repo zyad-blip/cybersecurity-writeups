@@ -22,6 +22,7 @@ This section contains solution notes for the picoCTF General Skills challenges c
 | Static ain't always noise | 2021 | Easy | Binary identification, printable strings, file offsets, and disassembly | [Read](Static-Aint-Always-Noise/README.md) |
 | Magikarp Ground Mission | 2021 | Easy | SSH, shell navigation, and reading files across directories | [Read](Magikarp-Ground-Mission/README.md) |
 | PW Crack 1 | picoMini 2022 | Easy | Python source inspection, hard-coded password checks, and XOR decryption | [Read](PW-Crack-1/README.md) |
+| fixme2.py | picoMini 2022 | Easy | Python syntax, assignment vs. equality comparison | [Read](fixme2/README.md) |
 
 ## Documentation note
 
@@ -50,6 +51,7 @@ Some earlier challenge notes were reconstructed after completion by reviewing pu
 - Inspecting Python source code to identify hard-coded password checks.
 - Running Python scripts with the correct interpreter.
 - Understanding repeating-key XOR decryption.
+- Fixing Python syntax errors and distinguishing assignment (`=`) from equality comparison (`==`).
 
 ## Responsible practice
 
