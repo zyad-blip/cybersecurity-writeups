@@ -32,7 +32,7 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 | Networking | [FTP Service Lab](Hands-on-Labs/FTP/README.md) | Hands-on lab | Completed |
 | Web / Infrastructure | [Apache Local Web Server](Hands-on-Labs/Apache-Local-Web-Server/README.md) | Hands-on lab | Built and tested |
 | Linux | [CLI Fundamentals](Linux/CLI-Fundamentals/README.md) | Practical notes | Practiced |\n| Linux Host Enumeration | [Venus — Mission 0x02](HackMyVM/Venus/Mission-0x02/README.md) | HackMyVM mission | Completed |
-| Linux Host Enumeration | [Venus — Mission 0x06](HackMyVM/Venus/Mission-0x06/README.md) | HackMyVM mission | Completed |
+| Linux Host Enumeration | [Venus — Mission 0x06](HackMyVM/Venus/Mission-0x06/README.md) | HackMyVM mission | Completed |\n| Linux Host Enumeration | [Venus — Mission 0x07](HackMyVM/Venus/Mission-0x07/README.md) | HackMyVM mission | Completed |
 
 For a more detailed view of what is complete and what is still in progress, see **[PROGRESS.md](PROGRESS.md)**.
 
