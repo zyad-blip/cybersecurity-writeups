@@ -30,9 +30,9 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | Big Zip | CTF challenge | Recursive file search with grep | [Read](General-Skills/Big-Zip/README.md) |
 | FTP Service Lab | Personal hands-on lab | FTP client/server model, active and passive modes | [Read](Hands-on-Labs/FTP/README.md) |
 
-## Documentation accuracy
+| Venus — Mission 0x02 | HackMyVM | Linux file enumeration, `find`, stderr redirection, file inspection | [Read](HackMyVM/Venus/Mission-0x02/README.md) |\n\n## Documentation accuracy
 
-The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, Magikarp Ground Mission, and First Find write-ups are based on the commands and output recorded during my own solves. The CyberHeroes write-up is based on the JavaScript function and completion result recorded during the room.
+The Venus Mission 0x02 write-up records the confirmed file discovery and read; the recovered password is redacted, and subsequent account login is not claimed. The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, Magikarp Ground Mission, and First Find write-ups are based on the commands and output recorded during my own solves. The CyberHeroes write-up is based on the JavaScript function and completion result recorded during the room.
 
 ## Practiced labs and skills
 
