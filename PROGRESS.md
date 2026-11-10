@@ -43,6 +43,7 @@ The earlier picoCTF challenge notes that were reconstructed after completion are
 
 | Topic | Current status | Next step |
 |---|---|---|
+| picoCTF — PW Crack 1 | Password identified (`8713`); flag not yet verified | Run `python3 level1.py`, confirm the decrypted flag, and update the write-up. |
 | Linux Privilege Escalation exercise | In progress | Continue the authorized lab and document the full path only after confirming the room and completion. |
 
 ## Discussed or planned — not counted as completed
