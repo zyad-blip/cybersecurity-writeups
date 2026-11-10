@@ -21,11 +21,6 @@ This section contains solution notes for the picoCTF General Skills challenges c
 | Printer Shares | 2026 | Easy | SMB share discovery and file retrieval | [Read](Printer-Shares/README.md) |
 | Static ain't always noise | 2021 | Easy | Binary identification, printable strings, file offsets, and disassembly | [Read](Static-Aint-Always-Noise/README.md) |
 | Magikarp Ground Mission | 2021 | Easy | SSH, shell navigation, and reading files across directories | [Read](Magikarp-Ground-Mission/README.md) |
-
-## In progress
-
-| Challenge | Edition | Difficulty | Main concept | Write-up |
-|---|---|---|---|---|
 | PW Crack 1 | picoMini 2022 | Easy | Python source inspection, hard-coded password checks, and XOR decryption | [Read](PW-Crack-1/README.md) |
 
 ## Documentation note
