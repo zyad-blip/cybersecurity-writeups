@@ -48,7 +48,7 @@ The Venus Mission 0x02, Mission 0x06, and Mission 0x07 write-ups record confirme
 
 | Topic | Current status | Next step |
 |---|---|---|
-| Red Nexus — Windows SMB | In progress | Test the discovered `confidential` share's access controls in the authorized lab. [Write-up](Hands-on-Labs/Red-Nexus-Windows-SMB/README.md) |
+| Red Nexus — Windows SMB | In progress | Authenticated access to `confidential` and retrieval of `admin_flag.txt` are verified; a PsExec session / remote execution is not yet verified. [Write-up](Hands-on-Labs/Red-Nexus-Windows-SMB/README.md) |
 | Linux Privilege Escalation exercise | In progress | Continue the authorized lab and document the full path only after confirming the room and completion. |
 
 ## Discussed or planned — not counted as completed
