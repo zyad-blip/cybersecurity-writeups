@@ -114,6 +114,37 @@ smbclient -N //10.13.41.21/public -c "get helpdesk_notes.txt -"
 
 It contained a username and password. **The password is intentionally redacted from this public write-up.** A credential appearing in a note is not proof that it is valid or that the account has administrative privileges.
 
+### 6. Authenticate to the confidential share
+
+The first authentication attempt failed with `NT_STATUS_LOGON_FAILURE`. The password is case-sensitive; the corrected capitalization succeeded. The credential itself is intentionally **not reproduced** in this public write-up.
+
+The first attempt to open the host also omitted the share name. The valid service path includes both host and share:
+
+```bash
+smbclient -U 'rnadmin' //10.13.41.21/confidential
+```
+
+I then listed the directory:
+
+```text
+ls
+```
+
+It contained `admin_flag.txt`. My first `get` attempt used the misspelled name `amdin_flag.txt` and returned `NT_STATUS_OBJECT_NAME_NOT_FOUND`. Using the exact filename succeeded:
+
+```text
+get admin_flag.txt
+exit
+```
+
+I read the downloaded file locally and recovered this lab flag:
+
+```text
+redNexus{authenticated_smb_access_psexec}
+```
+
+**Scope of this result:** this confirms authenticated access to the `confidential` SMB share and retrieval of its file. It does **not** by itself prove that a PsExec session was established or that remote command execution succeeded. Those steps remain unverified.
+
 ## Commands and Tools
 
 Commands actually used:
@@ -142,7 +173,8 @@ exit
 - The `public` share was accessible without credentials.
 - The public share contained a lab flag file and a helpdesk note.
 - The helpdesk note exposed a username and password; the password is redacted here.
-- The `confidential` share was discovered but its access permissions have not yet been tested.
+- The `confidential` share was accessible using the authorized `rnadmin` lab account; `admin_flag.txt` was retrieved.
+- The authenticated-share flag was recovered. A PsExec session or remote execution has not yet been demonstrated.
 - MS17-010 was not confirmed by the Nmap vulnerability script.
 
 ## Result
@@ -165,4 +197,4 @@ redNexus{smb_eternalblue_ms17_010_loot}
 
 ## Takeaway
 
-The next lab step is to check the access controls on the `confidential` share using only the authorized lab account, then record the observed result. Do not claim successful authentication or administrative access until it is verified.
+The confidential-share access check is complete. If the exercise requires PsExec, the next step is to verify that capability separately in the authorized lab and document only the observed session/result. Do not equate successful SMB file access with PsExec execution.
