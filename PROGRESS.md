@@ -9,7 +9,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | Wave a flag | picoCTF 2021 | Linux permissions and command-line arguments | [Read](picoCTF/General-Skills/Wave-a-flag/README.md) |
 | Tab, Tab, Attack | picoCTF 2021 | ZIP extraction, tab completion, strings, grep | [Read](picoCTF/General-Skills/Tab-Tab-Attack/README.md) |
 | Nice netcat... | picoCTF 2021 | Netcat and decimal ASCII conversion | [Read](picoCTF/General-Skills/Nice-netcat/README.md) |
-| Obedient Cat | picoCTF 2021 | Downloading and reading plain text | [Read](picoCTF/General-Skills/Obedient-Cat/README.md) |
+| Obedient Cat | picoCTF 2019 | Downloading and reading plain text | [Read](picoCTF/General-Skills/Obedient-Cat/README.md) |
 | First Grep | picoCTF 2019 | Text searching with grep | [Read](picoCTF/General-Skills/First-Grep/README.md) |
 | First Find | picoCTF | Recursive file search, paths, and standard input/output | [Read](picoCTF/General-Skills/First-Find/README.md) |
 | Bases | picoCTF 2019 | Base64 decoding | [Read](picoCTF/General-Skills/Bases/README.md) |
@@ -29,9 +29,10 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | Active Reconnaissance | Training room | Browser DevTools, ping, traceroute, Netcat, Telnet | [Read](TryHackMe/Active-Reconnaissance/README.md) |
 | Big Zip | CTF challenge | Recursive file search with grep | [Read](General-Skills/Big-Zip/README.md) |
 | FTP Service Lab | Personal hands-on lab | FTP client/server model, active and passive modes | [Read](Hands-on-Labs/FTP/README.md) |
-
 | Venus — Mission 0x02 | HackMyVM | Linux file enumeration, `find`, stderr redirection, file inspection | [Read](HackMyVM/Venus/Mission-0x02/README.md) |
-| Venus — Mission 0x06 | HackMyVM | Recursive `grep`, directory enumeration with `find`, file inspection | [Read](HackMyVM/Venus/Mission-0x06/README.md) |\n\n## Documentation accuracy
+| Venus — Mission 0x06 | HackMyVM | Recursive `grep`, directory enumeration with `find`, file inspection | [Read](HackMyVM/Venus/Mission-0x06/README.md) |
+
+## Documentation accuracy
 
 The Venus Mission 0x02, Mission 0x06, and Mission 0x07 write-ups record confirmed file discovery and reading; recovered passwords are redacted, and subsequent account logins are not claimed. The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, Magikarp Ground Mission, and First Find write-ups are based on the commands and output recorded during my own solves. The CyberHeroes write-up is based on the JavaScript function and completion result recorded during the room.
 
@@ -46,6 +47,7 @@ The Venus Mission 0x02, Mission 0x06, and Mission 0x07 write-ups record confirme
 
 | Topic | Current status | Next step |
 |---|---|---|
+| Red Nexus — Windows SMB | In progress | Test the discovered `confidential` share's access controls in the authorized lab. [Write-up](Hands-on-Labs/Red-Nexus-Windows-SMB/README.md) |
 | Linux Privilege Escalation exercise | In progress | Continue the authorized lab and document the full path only after confirming the room and completion. |
 
 ## Discussed or planned — not counted as completed
