@@ -31,17 +31,18 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | FTP Service Lab | Personal hands-on lab | FTP client/server model, active and passive modes | [Read](Hands-on-Labs/FTP/README.md) |
 | Venus — Mission 0x02 | HackMyVM | Linux file enumeration, `find`, stderr redirection, file inspection | [Read](HackMyVM/Venus/Mission-0x02/README.md) |
 | Venus — Mission 0x06 | HackMyVM | Recursive `grep`, directory enumeration with `find`, file inspection | [Read](HackMyVM/Venus/Mission-0x06/README.md) |
+| Red Nexus — WebDAV RCE | Red Nexus Windows Lab | HTTP enumeration, WebDAV method discovery, upload behavior, and impact verification | [Read](Hands-on-Labs/Red-Nexus-WebDAV-RCE/README.md) |
 
 ## Documentation accuracy
 
-The Venus Mission 0x02, Mission 0x06, and Mission 0x07 write-ups record confirmed file discovery and reading; recovered passwords are redacted, and subsequent account logins are not claimed. The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, Magikarp Ground Mission, and First Find write-ups are based on the commands and output recorded during my own solves. The CyberHeroes write-up is based on the JavaScript function and completion result recorded during the room.
+The Venus Mission 0x02, Mission 0x06, and Mission 0x07 write-ups record confirmed file discovery and reading; recovered passwords are redacted, and subsequent account logins are not claimed. The earlier picoCTF challenge notes that were reconstructed after completion are labelled as such. The Plumbing, Printer Shares, Warmed Up, 2warm, Static ain't always noise, Magikarp Ground Mission, and First Find write-ups are based on the commands and output recorded during my own solves. The CyberHeroes write-up is based on the JavaScript function and completion result recorded during the room. The Red Nexus WebDAV write-up records the observed Apache fingerprint and separately notes the mismatch with the IIS wording in the flag.
 
 ## Practiced labs and skills
 
 | Name | Status | Notes |
 |---|---|---|
 | Apache Local Web Server | Built and tested | Apache service, port 80, a local virtual host, and access-log inspection. [Notes](Hands-on-Labs/Apache-Local-Web-Server/README.md) |
-| Linux CLI Fundamentals | Practiced | `file`, `strings`, `grep`, and basic Netcat usage. [Notes](Linux/CLI-Fundamentals/README.md) |
+| Linux CLI Fundamentals | Practiced | `file`, `strings`, `grep`, and basic Netcat usage. |
 
 ## In progress / not yet verified as complete
 
