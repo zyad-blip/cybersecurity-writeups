@@ -29,6 +29,7 @@ This page tracks verified progress across rooms, CTF challenges, and personal ha
 | Active Reconnaissance | Training room | Browser DevTools, ping, traceroute, Netcat, Telnet | [Read](TryHackMe/Active-Reconnaissance/README.md) |
 | Big Zip | CTF challenge | Recursive file search with grep | [Read](General-Skills/Big-Zip/README.md) |
 | Trust But Verify | CyLab Academy | File enumeration, running a script against multiple files, and filtering output with grep | [Read](CyLab-Academy/Trust-But-Verify/README.md) |
+| Hidden in Plain Sight | CyLab Academy | JPEG metadata inspection, Base64 decoding, Steghide, and hidden payload extraction | [Read](CyLab-Academy/Hidden-in-Plain-Sight/README.md) |
 | FTP Service Lab | Personal hands-on lab | FTP client/server model, active and passive modes | [Read](Hands-on-Labs/FTP/README.md) |
 | Venus — Mission 0x02 | HackMyVM | Linux file enumeration, `find`, stderr redirection, file inspection | [Read](HackMyVM/Venus/Mission-0x02/README.md) |
 | Venus — Mission 0x06 | HackMyVM | Recursive `grep`, directory enumeration with `find`, file inspection | [Read](HackMyVM/Venus/Mission-0x06/README.md) |
