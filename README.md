@@ -29,6 +29,7 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 | Reconnaissance | [Passive Reconnaissance](TryHackMe/Passive-Reconnaissance/README.md) | Training room | Completed |
 | Reconnaissance | [Active Reconnaissance](TryHackMe/Active-Reconnaissance/README.md) | Training room | Completed |
 | General Skills | [Big Zip](General-Skills/Big-Zip/README.md) | CTF challenge | Completed |
+| File Analysis | [Trust But Verify](CyLab-Academy/Trust-But-Verify/README.md) | CyLab Academy challenge | Completed |
 | Networking | [FTP Service Lab](Hands-on-Labs/FTP/README.md) | Hands-on lab | Completed |
 | Web / Infrastructure | [Apache Local Web Server](Hands-on-Labs/Apache-Local-Web-Server/README.md) | Hands-on lab | Built and tested |
 | Linux | [CLI Fundamentals](Linux/CLI-Fundamentals/README.md) | Practical notes | Practiced |\n| Linux Host Enumeration | [Venus — Mission 0x02](HackMyVM/Venus/Mission-0x02/README.md) | HackMyVM mission | Completed |
