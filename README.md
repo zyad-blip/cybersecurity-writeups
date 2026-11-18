@@ -24,6 +24,7 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 | Topic | Challenge / Lab | Type | Status |
 |---|---|---|---|
 | picoCTF General Skills | [17 completed challenges](picoCTF/General-Skills/README.md) | CTF challenges | Completed |
+| picoCTF Web Exploitation | [IntroToBurp](picoCTF/Web-Exploitation/IntroToBurp/README.md) | picoCTF 2024 | Completed |
 | Web / Authentication | [CyberHeroes](TryHackMe/CyberHeroes/README.md) | TryHackMe room | Completed |
 | Digital Forensics | [Intro to Digital Forensics](TryHackMe/Intro-to-Digital-Forensics/README.md) | TryHackMe room | Completed |
 | Reconnaissance | [Passive Reconnaissance](TryHackMe/Passive-Reconnaissance/README.md) | Training room | Completed |
@@ -33,8 +34,10 @@ The goal is not only to collect flags. I want to understand **why a technique wo
 | Steganography | [Hidden in Plain Sight](CyLab-Academy/Hidden-in-Plain-Sight/README.md) | CyLab Academy challenge | Completed |
 | Networking | [FTP Service Lab](Hands-on-Labs/FTP/README.md) | Hands-on lab | Completed |
 | Web / Infrastructure | [Apache Local Web Server](Hands-on-Labs/Apache-Local-Web-Server/README.md) | Hands-on lab | Built and tested |
-| Linux | [CLI Fundamentals](Linux/CLI-Fundamentals/README.md) | Practical notes | Practiced |\n| Linux Host Enumeration | [Venus — Mission 0x02](HackMyVM/Venus/Mission-0x02/README.md) | HackMyVM mission | Completed |
-| Linux Host Enumeration | [Venus — Mission 0x06](HackMyVM/Venus/Mission-0x06/README.md) | HackMyVM mission | Completed |\n| Linux Host Enumeration | [Venus — Mission 0x07](HackMyVM/Venus/Mission-0x07/README.md) | HackMyVM mission | Completed |
+| Linux | [CLI Fundamentals](Linux/CLI-Fundamentals/README.md) | Practical notes | Practiced |
+| Linux Host Enumeration | [Venus — Mission 0x02](HackMyVM/Venus/Mission-0x02/README.md) | HackMyVM mission | Completed |
+| Linux Host Enumeration | [Venus — Mission 0x06](HackMyVM/Venus/Mission-0x06/README.md) | HackMyVM mission | Completed |
+| Linux Host Enumeration | [Venus — Mission 0x07](HackMyVM/Venus/Mission-0x07/README.md) | HackMyVM mission | Completed |
 
 For a more detailed view of what is complete and what is still in progress, see **[PROGRESS.md](PROGRESS.md)**.
 
@@ -44,31 +47,21 @@ For a more detailed view of what is complete and what is still in progress, see 
 .
 ├── General-Skills/
 │   └── Big-Zip/
-├── HackMyVM/\n│   └── Venus/\n│       ├── Mission-0x02/\n│       └── Mission-0x06/\n├── Hands-on-Labs/
+├── HackMyVM/
+│   └── Venus/
+│       ├── Mission-0x02/
+│       └── Mission-0x06/
+├── Hands-on-Labs/
 │   ├── Apache-Local-Web-Server/
 │   └── FTP/
 ├── In-Progress/
 ├── Linux/
 │   └── CLI-Fundamentals/
 ├── picoCTF/
-│   └── General-Skills/
-│       ├── 2warm/
-│       ├── Bases/
-│       ├── First-Find/
-│       ├── First-Grep/
-│       ├── fixme2/
-│       ├── Magikarp-Ground-Mission/
-│       ├── Nice-netcat/
-│       ├── Obedient-Cat/
-│       ├── Plumbing/
-│       ├── Printer-Shares/
-│       ├── PW-Crack-1/
-│       ├── Static-Aint-Always-Noise/
-│       ├── Tab-Tab-Attack/
-│       ├── Warmed-Up/
-│       ├── Wave-a-flag/
-│       ├── Whats-a-net-cat/
-│       └── strings-it/
+│   ├── Forensics/
+│   ├── General-Skills/
+│   └── Web-Exploitation/
+│       └── IntroToBurp/
 ├── Templates/
 │   └── WRITEUP-TEMPLATE.md
 ├── TryHackMe/
