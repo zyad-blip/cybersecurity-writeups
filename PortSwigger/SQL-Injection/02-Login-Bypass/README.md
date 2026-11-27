@@ -4,15 +4,24 @@
 
 This lab contains a SQL injection vulnerability in the login functionality.
 
+<img width="1200" height="568" alt="image" src="https://github.com/user-attachments/assets/6a5fb756-6103-4677-8522-24dd34fbd354" />
+
+
 ## Steps to Reproduce
 
 ### 1 - Access the Lab
 
 When the lab opens, you can see a shop page with a **My account** button in the top-right corner.
 
+<img width="1385" height="787" alt="image" src="https://github.com/user-attachments/assets/7102fe83-4f1b-442c-975a-cc3230876194" />
+
+
 ### 2 - Access the Login Page
 
 When you click on the **My account** button, you will see the login page.
+
+<img width="1306" height="580" alt="image" src="https://github.com/user-attachments/assets/ca7e061b-6f9c-402f-89b6-c2b09ee7fbaa" />
+
 
 The hint indicated that the lab contains a SQL injection vulnerability in the login functionality, so I decided to try an SQL query.
 
@@ -24,7 +33,13 @@ The lab provides the username `administrator`.
 administrator'--
 ```
 
+<img width="847" height="425" alt="image" src="https://github.com/user-attachments/assets/6fcfa582-7a88-425f-94d3-787a35c124e5" />
+
+
 Then, I entered any value in the password field and clicked **Log in**.
+
+<img width="1311" height="639" alt="image" src="https://github.com/user-attachments/assets/68485ad4-8b41-45f0-bed5-1b5eac5af650" />
+
 
 ## Technical Explanation
 
